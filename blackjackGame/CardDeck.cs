@@ -19,6 +19,7 @@ public class CardDeck
         return _deck.Count();
     }
 
+    // Next card is essentially Peek
     public Card NextCard()
     {
         int numberOfCards = GetRemainingNumberOfCards();
